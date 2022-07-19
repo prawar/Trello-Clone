@@ -1,0 +1,39 @@
+.sidebar{
+    width: 40px;
+    background-color: #0480c9;
+    position: fixed;
+    top: 44px;
+    left: 0px;
+    height: 100vh;
+    box-shadow: -6px 2px 8px 1px #000;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.05));
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar:hover{
+    background-color: white;
+    background-image: none;
+}
+
+
+
+.sidebar-btn-wrapper{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.sidebar-btn-special{
+    background-color: white;
+}

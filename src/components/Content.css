@@ -1,0 +1,8 @@
+.content {
+    position: fixed;
+    top: 44px;
+    left: 40px;
+    background-color: #004269;
+    width: 100vw;
+    height: 100vh;
+}
